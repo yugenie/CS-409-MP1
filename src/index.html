@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -9,5 +9,116 @@
     <body>
         <h1>Hello World! Welcome to MP1!</h1>
         <img src="assets/image.jpg">
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MP1</title>
+        <script src="https://kit.fontawesome.com/88f6118638.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navbar">
+          <div id="logo">Yuge Nie</div>
+          <ul id="menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#photo">Photo</a></li>
+          </ul>
+        </nav>
+
+        <section id="home">
+          <div class="center">
+            <img id="modal_button" src="assets/me.jpeg">
+            <a href="https://github.com/yugenie" target="_blank" class="link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yuge-nie-2842b3202/" target="_blank" class="link"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div id="my_modal" class="modal">
+            <div class="modal_content">
+              <span id="close_button" class="close">&times;</span>
+              <div class="modal_body">
+                <h1> Hello, I am Yuge Nie.</h1>
+                <h1> A senior student major in CS at UIUC.</h1>
+                <h1> Nice to meet you guys!</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="introduction">
+          <div class="content">Hello, I am Yuge Nie!</div>
+        </section>
+
+        <section id="hobby">
+          <div class="container">
+            <div class="column">
+              <i class="fa-solid fa-gamepad"></i>
+              <h1>Game</h1>
+              <ul>
+                <li>Splatoon3</li>
+                <li>Cube Escape</li>
+                <li>Don't Starve Together</li>
+                <li>Gorogoa</li>
+                <li>Super Mario Cart</li>
+              </ul>
+            </div>
+            <div class="column">
+              <!-- <i class="fa-brands fa-stack-overflow"></i> -->
+              <i class="fa-solid fa-music"></i>
+              <h1>Music</h1>
+              <ul>
+                <li>僕らの手には何もないけど、</li>
+                <li>Vivre à en crever</li>
+                <li>Sofia</li>
+                <li>Lost Stars</li>
+                <li>Talking to the Moon</li>
+              </ul>
+            </div>
+            <div class="column">
+              <!-- <i class="fa-solid fa-wifi"></i> -->
+              <i class="fa-solid fa-film"></i>
+              <h1>Movie</h1>
+              <ul>
+                <li>The Greatest Showman</li>
+                <li>La la land</li>
+                <li>Now you see me</li>
+                <li>Interstellar</li>
+                <li>Coco</li>
+                <li>Beautiful Mind</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="photo">
+          <div class="carousel">
+            <div class="slide fade">
+              <video id="video" controls muted>
+                <source src="assets/video.MOV">
+              </video>
+            </div>
+            <div class="slide fade">
+              <img src="assets/img5.jpeg">
+            </div>
+            <div class="slide fade">
+              <img src="assets/img2.jpeg">
+            </div>
+            <div class="slide fade">
+              <img src="assets/img3.jpeg">
+            </div>
+
+            <a id="prev">&#10094;</a>
+            <a id="next">&#10095;</a>
+          </div>
+        </section>
+
+        <div class="footer">
+          <p>© 2025 Yuge Nie</p>
+        </div>
     </body>
 </html>
